@@ -2,4 +2,7 @@ Flask
 python-dotenv
 openai-whisper
 google-generativeai
-torch
+torch==2.0.1
+gunicorn
+requests
+numpy<2
