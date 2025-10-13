@@ -1,16 +1,51 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-env/
-*.env
+*.db
+
+# Environment files
+.env
+
+# Uploads and data
+uploads/
 *.wav
 *.mp3
 *.m4a
-*.ogg
-*.flac
-*.webm
-*.zip
-*.log
+
+# Model cache
+.whisper/
+whisper_cache/
+models/
 *.pt
-*.bin
+
+# Virtual environment
+venv/
+.env/
+ENV/
+env/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Flask and build artifacts
+instance/
+*.sqlite3
+*.db-journal
+
+# Jupyter and temporary notebooks (if any)
+.ipynb_checkpoints/
+
+# Temporary or test output
+tmp/
+tests/__pycache__/
+
+

@@ -1,8 +1,7 @@
 import os
 import re
-import requests
-from flask import Flask, request, render_template
 import whisper
+from flask import Flask, request, render_template
 from dotenv import load_dotenv
 from pathlib import Path
 import google.generativeai as genai

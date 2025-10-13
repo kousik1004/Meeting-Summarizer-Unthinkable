@@ -1,22 +1,42 @@
-# 🧠 AI Meeting Summarizer
+# 🎯 Meeting Summarizer
 
 ## Objective
-A web app that transcribes meeting audio using **OpenAI Whisper (tiny model)** and summarizes it using **Google Gemini API**.
+Transcribe meeting audio and generate concise, action-oriented summaries with decisions and tasks.
 
 ---
 
-## 🚀 Features
-- Upload `.mp3`, `.wav`, or `.m4a` audio files
-- Whisper-powered transcription
-- Gemini-powered summary & action items
-- Automatic text file output storage
+## Features
+- Upload and process meeting audio files
+- Automatic transcription using OpenAI Whisper
+- Smart summarization using Google Gemini API
+- Simple, modern frontend built with HTML, CSS, and JavaScript
+- Flask-based backend
 
 ---
-## ⚙️ Setup
-1. Clone this repository  
-2. Install dependencies  
+
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Flask (Python)
+- **ASR Model:** OpenAI Whisper
+- **LLM:** Google Gemini
+- **Environment Management:** python-dotenv
+
+---
+
+## Setup Instructions
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
-3. Create a .env file: GEMINI_API_KEY=your_api_key_here
-4. Run: python app.py
-5. Open in browser: http://127.0.0.1:5000
+   git clone https://github.com/yourusername/meeting-summarizer.git
+   cd meeting-summarizer
+
+2. Install dependencies: pip install -r requirements.txt
+
+## Environment Setup
+1. Create a `.env` file in the project root.
+2. Add your Gemini API key like this: GEMINI_API_KEY=your_api_key_here
+
+## Run the app: 
+python app.py
+
+## Open in browser:
+http://127.0.0.1:5000
