@@ -26,8 +26,8 @@ Transcribe meeting audio and generate concise, action-oriented summaries with de
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/meeting-summarizer.git
-   cd meeting-summarizer
+   git clone https://github.com/yourusername/meeting-summarizer-Unthinkable.git
+   cd meeting-summarizer-Unthinkable
 
 2. Install dependencies: pip install -r requirements.txt
 
