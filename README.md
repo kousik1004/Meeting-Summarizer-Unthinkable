@@ -1,4 +1,4 @@
-# 🎯 Meeting Summarizer
+#  Meeting Summarizer
 
 ## Objective
 Transcribe meeting audio and generate concise, action-oriented summaries with decisions and tasks.
