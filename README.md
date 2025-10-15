@@ -5,6 +5,10 @@ Transcribe meeting audio and generate concise, action-oriented summaries with de
 
 ---
 
+### Click the link here to see the demo video: https://drive.google.com/file/d/1JkBkCKBTqLo2aC5u21Lyra7tOw2tsJzk/view?usp=sharing
+
+---
+
 ## Features
 - Upload and process meeting audio files
 - Automatic transcription using OpenAI Whisper
